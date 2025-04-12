@@ -91,7 +91,7 @@ numeros.sort(reverse=True)
 print ("Os números em ordem decrescente são ", numeros)
 
 
-#  ecercício 7 
+#  exercício 7 
 
 tempo_gasto = int(input('Quanto tempo durou a viagem (horas): '))
 v_media = int(input('Qual foi a velocidade media da viagem(Em km/h): '))
