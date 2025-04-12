@@ -1,0 +1,100 @@
+# exercício 1
+
+
+idade = int (input("Qual sua idade "))
+
+
+if idade < 12:
+    print ("Criança")
+
+
+elif idade <= 17:
+        print ("Adolescente")
+
+
+else:
+            print ("Adulto")
+
+
+# exercício 2
+
+
+numero1 = int (input("Digite um número "))
+numero2 = int (input("Digite mais um número "))
+
+
+if numero1 > numero2:
+    print ("O primeiro número é maior que o segundo")
+
+
+elif numero1 < numero2:
+        print ("O primeiro número é menor que o segundo")
+
+
+else:
+        print ("Os números são iguais")
+       
+           
+# exercício 3
+
+
+letra = input("Digite uma letra do alfabeto: ").lower()
+
+
+if letra in ["a", "e", "i", "o", "u"]:
+    print("Essa letra é uma Vogal")
+else:
+    print("Essa letra é uma Consoante")
+   
+    
+# exercício 4
+
+
+senha1 = input("Digite sua senha ")
+senha2 = input("Confirme sua senha ")
+
+
+if senha1 == senha2:
+    print ("Sua senha está correta!")
+   
+else:
+    print ("Sua senha está incorreta, tente novamente!")
+   
+
+# exercício 5
+
+
+nota1 = float(input("Digite a primeira nota "))
+nota2 = float(input("Digite a segunda nota "))
+nota3 = float(input("Digite a terceira nota "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+if media >= 7:
+    print ("Aluno Aprovado! ")
+    
+else:
+    print ("Aluno Reprovado! ")
+    
+    
+#  exercício 6
+
+
+valor1 = int(input("Digite o primeiro valor inteiro "))
+valor2 = int(input("Digite o segundo valor inteiro "))
+valor3 = int(input("Digite o terceiro valor inteiro "))
+
+numeros = [valor1, valor2, valor3]
+
+numeros.sort(reverse=True)
+
+print ("Os números em ordem decrescente são ", numeros)
+
+
+#  ecercício 7 
+
+tempo_gasto = int(input('Quanto tempo durou a viagem (horas): '))
+v_media = int(input('Qual foi a velocidade media da viagem(Em km/h): '))
+distancia = tempo_gasto * v_media
+litros = distancia /12
+print(f'Seu tempo gasto foi de: {tempo_gasto}horas, sua velocidade média foi de: {v_media}km/h, sua distância foi de: {distancia}km e sua quantidade de litros gasta foi de: {litros} litros')
